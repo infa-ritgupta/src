@@ -1,0 +1,23 @@
+{
+  "objectInfo" : {
+    "id" : "cp3DAowduK2kI5YAovuDmC",
+    "name" : "FMI",
+    "type" : "Project",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2024-03-04T07:51:18.509Z",
+  "objectRefs" : [ ]
+}
