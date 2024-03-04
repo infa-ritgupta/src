@@ -13,14 +13,14 @@
       },
       "contextAttributes" : [ ],
       "additionalInfo" : {
-        "description" : "",
+        "description" : "hi",
         "contentType" : "Binary",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "dat",
-  "updateTime" : "2024-03-04T07:51:18.509Z",
+  "updateTime" : "2024-03-04T07:56:56.944Z",
   "objectRefs" : [ {
     "id" : "5DJ2WxmaCPJbVr8rk1VxEw",
     "name" : "INWPF28BFDR-AAD",
