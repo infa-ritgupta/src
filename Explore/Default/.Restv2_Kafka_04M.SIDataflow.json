@@ -1,0 +1,93 @@
+{
+  "objectInfo" : {
+    "id" : "4W42HwTn741c2GYedSG0uB",
+    "name" : "Restv2_Kafka_04M",
+    "type" : "SIDataflow",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "c4c2e0a0-114c-4380-8044-86148f0ea506"
+      },
+      "contextAttributes" : [ {
+        "name" : "parentId",
+        "value" : "iVVWTmTqiKyfgsZoEz6ayA"
+      }, {
+        "name" : "version",
+        "value" : "1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "Binary",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "dat",
+  "updateTime" : "2025-11-07T08:55:46.834Z",
+  "objectRefs" : [ {
+    "id" : "bSKx3M3t9m9lKLRhKcVKcj",
+    "name" : "AIN_S3",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0101U00B00000000001T"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "5SKtahAOjCVeIEIb15ZdQr",
+    "name" : "invprodcdwdl01.informatica.com",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0101U025000000000003"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "0wmhQX0wxA9eEn7pZkRxCq",
+    "name" : "SIAutomation_RestV2_2023.04.M",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0101U00B00000000000E"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  } ],
+  "readableFileExtension" : "json",
+  "readableFilePresent" : true
+}

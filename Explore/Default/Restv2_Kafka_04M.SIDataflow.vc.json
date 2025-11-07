@@ -1,0 +1,71 @@
+{
+  "agentId" : "0101U025000000000003",
+  "nodes" : [ {
+    "id" : "896b699b-3942-4dfa-b505-65a211f08527",
+    "name" : "Restv2_Kafka_04M_source",
+    "serviceType" : "source",
+    "config" : [ {
+      "key" : "_nativeName",
+      "value" : "getAllCourses"
+    }, {
+      "key" : "header",
+      "value" : "[]"
+    }, {
+      "key" : "alertType",
+      "value" : "Raise Alert"
+    }, {
+      "key" : "scheme",
+      "value" : "HTTP"
+    }, {
+      "key" : "schedulePeriod",
+      "value" : "0"
+    } ],
+    "connectionId" : "0101U00B00000000000E",
+    "type" : "",
+    "metaMetadata" : ""
+  }, {
+    "id" : "56136c27-02ae-45cb-bed9-58f07721c55f",
+    "name" : "Restv2_Kafka_04M_target",
+    "serviceType" : "target",
+    "config" : [ {
+      "key" : "_nativeName",
+      "value" : "siautomation"
+    }, {
+      "key" : "minUploadPartSize",
+      "value" : "5120"
+    }, {
+      "key" : "multipartUploadThreshold",
+      "value" : "5120"
+    }, {
+      "key" : "partitionTime",
+      "value" : "None"
+    } ],
+    "connectionId" : "0101U00B00000000001T",
+    "type" : "",
+    "metaMetadata" : ""
+  } ],
+  "edges" : [ {
+    "id" : "988a6b4d-61ff-4f24-988c-ab695d2cb635",
+    "name" : "edge0",
+    "from" : "Restv2_Kafka_04M_source",
+    "to" : "Restv2_Kafka_04M_target",
+    "type" : "success",
+    "config" : [ ],
+    "metaMetadata" : ""
+  } ],
+  "runtimeOptions" : {
+    "maxLogSize" : {
+      "value" : 10,
+      "unit" : "MB"
+    },
+    "logLevel" : "INFO",
+    "config" : [ ]
+  },
+  "customAttributes" : {
+    "project" : "Default",
+    "agentId" : "0101U025000000000003",
+    "messageFormat" : "binary",
+    "environmentType" : "Secure Agent"
+  },
+  "description" : null
+}
