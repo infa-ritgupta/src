@@ -1,0 +1,73 @@
+{
+  "objectInfo" : {
+    "id" : "fESDUeh3MoHbjuyhQtfyic",
+    "name" : "KafkaToKafka_Git",
+    "type" : "SIDataflow",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "fa4a05e0-1ceb-41e6-93d1-c09463ab9457"
+      },
+      "contextAttributes" : [ {
+        "name" : "parentId",
+        "value" : "2Kty09cNbMji4CcACA0vKw"
+      }, {
+        "name" : "version",
+        "value" : "1"
+      } ],
+      "additionalInfo" : {
+        "description" : "TestAutomation",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "dat",
+  "updateTime" : "2025-11-13T07:22:49.936Z",
+  "objectRefs" : [ {
+    "id" : "5SKtahAOjCVeIEIb15ZdQr",
+    "name" : "invprodcdwdl01.informatica.com",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0101U025000000000003"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "csp5MSmhvQDjCU1S7Vl8sR",
+    "name" : "SIAutomation_Kafka_2026.04.M",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0101U00B00000000003V"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  } ],
+  "readableFileExtension" : "json",
+  "readableFilePresent" : true
+}
